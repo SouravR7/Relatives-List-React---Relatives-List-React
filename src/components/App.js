@@ -8,7 +8,7 @@ class App extends Component {
       <>
         <ol key="relativeList">
           {relatives.map((relatives, index) => (
-            <li key={`relativeListitem ${index + 1}`}>{relatives}</li>
+            <li key={`relativeListItem ${index + 1}`}>{relatives}</li>
           ))}
         </ol>
       </>
